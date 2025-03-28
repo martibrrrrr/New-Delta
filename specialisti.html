@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Nostri Specialisti - New Delta</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="new_delta_logo.jpg" alt="New Delta Logo" class="h-16 mr-4">
+                <h1 class="text-3xl font-bold">New Delta</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:text-blue-200">Home</a></li>
+                    <li><a href="servizi.html" class="hover:text-blue-200">Servizi</a></li>
+                    <li><a href="specialisti.html" class="hover:text-blue-200">Specialisti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-8 px-4">
+        <section id="specialisti">
+            <h2 class="text-2xl font-semibold mb-6 text-center">I Nostri Specialisti</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Specialist cards from previous example -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="dr-gambardella.jpg" alt="Dr. Giuseppe Gambardella" class="w-48 h-48 object-cover rounded-full mx-auto mb-4">
+                    <h3 class="font-bold text-xl mb-2">Dr. Giuseppe Gambardella</h3>
+                    <p class="text-gray-600">Neurochirurgo</p>
+                </div>
+                <!-- More specialists... -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 New Delta Centro Medico Polifunzionale. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+</body>
+</html>
