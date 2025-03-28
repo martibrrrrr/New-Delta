@@ -1,10 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Delta - Centro Medico Polifunzionale</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">New Delta</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:text-blue-200">Home</a></li>
+                    <li><a href="#servizi" class="hover:text-blue-200">Servizi</a></li>
+                    <li><a href="#sedi" class="hover:text-blue-200">Sedi</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <main class="container mx-auto mt-8 px-4">
+        <section id="home" class="grid md:grid-cols-2 gap-8 mb-12">
+            <div>
+                <h2 class="text-2xl font-semibold mb-4">Chi Siamo</h2>
+                <p class="text-gray-700">New Delta è un centro medico polifunzionale specializzato in fisiokinesiterapia. Offriamo servizi medici di qualità con un approccio integrato e personalizzato alla salute e al benessere.</p>
+            </div>
+            <div id="servizi">
+                <h2 class="text-2xl font-semibold mb-4">I Nostri Servizi</h2>
+                <ul class="list-disc pl-5">
+                    <li class="text-gray-700">Fisiokinesiterapia</li>
+                    <li class="text-gray-700">Riabilitazione</li>
+                    <li class="text-gray-700">Terapie Manuali</li>
+                    <li class="text-gray-700">Valutazioni Posturali</li>
+                    <li class="text-gray-700">Trattamenti Specialistici</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="sedi" class="mt-12">
+            <h2 class="text-2xl font-semibold mb-4">Le Nostre Sedi</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Pizzo Calabro (VV)</h3>
+                    <p class="text-gray-600"><strong>Indirizzo:</strong> Via Nazionale, Complesso Sant'Agostino</p>
+                    <p class="text-gray-600"><strong>Dettagli:</strong> Palazzina H</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Messina</h3>
+                    <p class="text-gray-600"><strong>Indirizzo:</strong> Viale Giuseppe La Farina, Isolato 278</p>
+                    <p class="text-gray-600"><strong>Dettagli:</strong> Scala B, I Piano</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-12">
+            <h2 class="text-2xl font-semibold mb-4">Prenota una Visita</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="text-gray-700 mb-4">Per prenotare una visita o richiedere informazioni, contattaci:</p>
+                <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+                    <a href="tel:090673391" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 text-center">
+                        Chiama Ora
+                    </a>
+                    <a href="mailto:newdeltamessina@gmail.com" class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 text-center">
+                        Invia Email
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 New Delta Centro Medico Polifunzionale. Tutti i diritti riservati.</p>
+            <div class="mt-4">
+                <p>P.IVA: DA INSERIRE</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
